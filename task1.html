@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task1.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title" class="text-center">Students Survey Form</h1>
+    <form id="form">
+ 
+       
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+ 
+            
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email ID
+            </label>
+ 
+            
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email id" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+ 
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Gender
+            </label>
+             
+            
+            <select name="role" id="role">
+                <option value="Select your Gender">Select your Gender </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="other">Other</option>
+            </select>
+         </div>
+
+        <div class="form-control">
+            <label for="City" id="City">
+                City
+            </label>
+ 
+            <input type="text"
+                   id="City"
+                   placeholder="Enter your City" />
+        </div>
+  
+        
+  
+        <div class="form-control">
+            <label>
+                Are You From Computer Engineering Background?
+            </label>
+ 
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            
+        </div>
+  
+        <div class="form-control">
+            <label>Languages You Know?
+                
+            </label>
+            
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">React</input></label>
+            
+  
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <button type="submit" value="submit">
+            Submit
+        </button>
+
+        <div>
+            <p id="description" class="description">
+                Thank you for Your Valueable Time!!
+              </p>
+
+        </div>
+    </form>
+</body>
+</html>
